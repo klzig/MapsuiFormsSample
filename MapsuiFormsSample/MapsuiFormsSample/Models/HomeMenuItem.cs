@@ -7,6 +7,7 @@ namespace MapsuiFormsSample.Models
     public enum MenuItemType
     {
         Browse,
+        Mapsui,
         About
     }
     public class HomeMenuItem

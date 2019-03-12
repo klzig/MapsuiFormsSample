@@ -1,9 +1,6 @@
-﻿using MapsuiFormsSample.Models;
-using System;
-using System.Collections.Generic;
-
+﻿using System.Collections.Generic;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+using MapsuiFormsSample.Models;
 
 namespace MapsuiFormsSample.Views
 {
@@ -18,6 +15,7 @@ namespace MapsuiFormsSample.Views
             menuItems = new List<HomeMenuItem>
             {
                 new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
+                new HomeMenuItem {Id = MenuItemType.Mapsui, Title="Mapsui" },
                 new HomeMenuItem {Id = MenuItemType.About, Title="About" }
             };
 

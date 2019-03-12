@@ -1,9 +1,7 @@
 ﻿using MapsuiFormsSample.Models;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MapsuiFormsSample.Views
 {
@@ -27,6 +25,9 @@ namespace MapsuiFormsSample.Views
                 {
                     case (int)MenuItemType.Browse:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));
+                        break;
+                    case (int)MenuItemType.Mapsui:
+                        MenuPages.Add(id, new NavigationPage(new MapsuiPage()));
                         break;
                     case (int)MenuItemType.About:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
