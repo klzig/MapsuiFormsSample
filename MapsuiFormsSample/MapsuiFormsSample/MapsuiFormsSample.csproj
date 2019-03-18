@@ -11,8 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Mapsui.Forms" Version="2.0.0-beta.22" />
+    <PackageReference Include="Mapsui.Forms" Version="2.0.0-beta.24" />
     <PackageReference Include="Xamarin.Forms" Version="3.6.0.220655" />  
-    <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
 </Project>
